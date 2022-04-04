@@ -1,0 +1,72 @@
+#grad2{
+  height: 700px;
+  background-color: lightgrey; /* For browsers that do not support gradients*/
+  background-image: linear-gradient(DarkSeaGreen, DarkSeaGreen, PaleGoldenRod);
+}
+
+.profilepicture{
+  image: url("css\1.jpg");
+  background-repeat: no-repeat;
+  width: 10px;
+  height: 20px;
+}
+
+#grad3 {
+   height: 700px;
+   background-color: lightgrey; /* For browsers that do not support gradients*/
+   background-image: linear-gradient(PaleGoldenRod, DarkSeaGreen, DarkOliveGreen);
+ }
+
+input{
+  background-color: PaleGoldenRod;
+  font-size: 20px;
+}
+
+body{
+  font-style: italic;
+  color: white;
+  font-size: 20px;
+}
+
+table td{
+ text-align: center;
+}
+
+h1 {
+   font-size: 60px;
+   font-family: serif;
+   background-color: OldLace;
+   color: DarkSeaGreen;
+}
+
+#btn{
+  background-color: DarkSeaGreen;
+  color: black;
+  font-size: 20px;
+  padding: 7px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 30%;
+}
+
+#btn:hover{
+  background-color: DarkSeaGreen;
+  color: white;
+}
+
+.btn{
+  background-color: PaleGoldenRod;
+  color: black;
+  font-size: 20px;
+  padding: 7px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 20%;
+}
+
+.btn:hover{
+  background-color: PaleGoldenRod;
+  color: #c1946a;
+}
